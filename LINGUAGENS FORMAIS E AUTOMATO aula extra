@@ -1,0 +1,22 @@
+LINGUAGENS FORMAIS E AUTOMATO 
+
+// ATIVIDADE 2
+
+G = (V,T,P,S)
+V = (A,B,C )
+T = (0,1,2,...,9)
+P = (A > B, A > C, A > BA, B > C , C > 0|1|...|9)
+S = A
+
+// ATIVIDADE 2 
+
+S
+NP VP
+DET N VP
+o N VP
+o cachorro VP
+o cachorro V NP
+o cachorro perseque NP
+o cachorro perseque DET N
+o cachorro perseque o N
+o cachorro perseque o gato
