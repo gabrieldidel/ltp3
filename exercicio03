@@ -1,0 +1,141 @@
+exercicio03
+
+//atv1
+
+using System;
+using System.Text;
+
+ namespace atividade
+ {
+    class exercicio01
+    {
+        public static void Main(string[] args)
+        {
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.WriteLine("Digite um número:");
+            int numero = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Seu numero é:" + numero);
+        }
+    }
+ }
+
+//atv2
+
+using System;
+ using System.Text;
+
+ namespace atividade
+ {
+    class exercicio02
+    {
+        public static void Main(string[] args)
+        {
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.WriteLine ("Coloque seu nome: ");
+            string nome = Console.ReadLine();
+            Console.WriteLine("Coloque seu sobrenome: ");
+            string sobreNome = Console.ReadLine();
+            Console.WriteLine ("Seu nome completo é: " + nome + " "+ sobreNome);
+        }
+    }
+}
+
+//atv3
+
+using System;
+using System.Text;
+
+namespace atividade
+{
+    class exercicio03
+    {
+        public static void Main(string[] args)
+        {
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.WriteLine ("Coloque o ano que você nasceu: ");
+            int anoNascimento = Convert.ToInt32(Console.ReadLine());
+            int anoAtual = 2023;
+            int idade = (anoAtual-anoNascimento);
+            Console.WriteLine ("Sua idade Atual é: " + idade);
+        }
+    }
+}
+
+//atv4
+
+ using System;
+ using System.Text;
+ 
+ namespace atividade
+ {
+    class exercicio04
+    {
+        public static void Main(string[] args)
+        {
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.WriteLine("Digite um Numero:");
+            int numeroUser = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Tabuada do número: " + numeroUser);
+            for (int i = 1; i <= 10; i++)
+            {
+                int resultado = numeroUser * i;
+                Console.WriteLine(numeroUser + "*" + i + "=" + resultado);
+            }
+        }
+    }
+ }
+
+//atv5
+
+using System;
+ using System.Text;
+
+namespace atividade
+{
+    class exercicio05
+    {
+        static void Main(string[] args)
+        {
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.WriteLine("Digite um número: ");
+            int number = int.Parse(Console.ReadLine());
+            if (number % 2 == 0)
+            {
+                Console.WriteLine($"{number} é par.");
+            }
+            else
+            {
+                Console.WriteLine($"{number} é impar.");
+            }
+        }
+    }
+}
+
+//atv6
+
+ using System;
+ using System.Text;
+
+ namespace atividade
+ {
+    class atividade06
+    {
+        public static void Main(string[] args)
+        {
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.WriteLine("Digite o primeiro numero:");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Digite o Segundo numero:");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            int soma = num1 + num2;
+            if (num1 == num2)
+            {
+                Console.WriteLine("O triplo da soma é: " + soma * 3);
+            }
+            else 
+            {
+                Console.WriteLine("A soma é: "+ soma);
+            }
+        }
+    }
+ }
