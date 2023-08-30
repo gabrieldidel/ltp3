@@ -1,0 +1,18 @@
+using System;
+ using System.Text;
+
+ namespace atividade
+ {
+    class exercicio02
+    {
+        public static void Main(string[] args)
+        {
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.WriteLine ("Coloque seu nome: ");
+            string nome = Console.ReadLine();
+            Console.WriteLine("Coloque seu sobrenome: ");
+            string sobreNome = Console.ReadLine();
+            Console.WriteLine ("Seu nome completo é: " + nome + " "+ sobreNome);
+        }
+    }
+}
