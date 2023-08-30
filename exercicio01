@@ -1,0 +1,20 @@
+exercicio01
+
+using System;
+using System.Text;
+
+namespace atividade
+{
+    class exercicio
+    {
+        public static void Main(string[] args)
+        {
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.WriteLine ("Coloque o ano que você nasceu: ");
+            int anoNascimento = Convert.ToInt32(Console.ReadLine());
+            int anoAtual = 2023;
+            int idade = (anoAtual-anoNascimento);
+            Console.WriteLine ("Sua idade Atual é: " + idade);
+        }
+    }
+}
